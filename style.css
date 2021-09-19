@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('./balloons.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.container {
+    width: 350px;
+    position: absolute;
+    top: auto;
+    left: 40%;
+    color: #fff;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+
+.container p {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.container input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#login {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 80px;
+    padding: 10px 15px;
+    width: 70%;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#google {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 10px 0px; 
+    width: 59%;
+    border-radius: 10px;
+    border: 0px;
+    display: inline-block;
+}
+
+#signup {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 0px 10px 0px; 
+    width: 39%;
+    border-radius: 10px;
+    border: 0px;
+    display: inline-block;
+}
+
+
+.create {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 5px;
+    padding: 10px 15px;
+    width: 90%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #fff;
+    color: black;
+}
+.create a {
+    text-decoration: none;
+}
+
+#forgetpassword {
+    font-size: 15px;
+    margin: 5px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.fab {
+    color: red;
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        position: absolute;
+        top: auto;
+        left: 5%;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .container {
+        position: absolute;
+        top: auto;
+        left: 20%;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+    .container {
+        position: absolute;
+        top: auto;
+        left: 35%;
+        color: #fff;
+    }
+}
